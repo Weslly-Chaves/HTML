@@ -4,6 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        body{
+            background-color: darkred;
+        }
+        form{ background-color: rgb(78, 3, 3);
+        }
+    </style>
 </head>
 <body>
 <table width="230px"
@@ -16,15 +23,20 @@ align="center">
     <tbody>
         <tr>
             <td align="center">
-                <form action="">
+                <form method="get" action="./home.html">
                     <label for="input_name">
                         Nome de Usuario: <input
-                        id="input_name" type="text"><br>
+                        id="input_name"
+                        type="text"><br>
                     </label>
                     <label for="input_pass">
                         informe sua senha: <input
-                        id="input_pass" type="password"><br>
-                        <input type="button" id="input_button" value="enviar">
+                        id="input_pass"
+                        name="input_pass"
+                        type="password"><br>
+                        <button type="submit">
+                            Enviar
+                        </button>
                     </label>
                 </form>
             </td>
