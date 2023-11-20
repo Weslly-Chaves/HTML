@@ -1,1 +1,50 @@
+/* aula sobre FlexBox */
+
 * { margin: 0px; padding: 0px;}
+
+.container-body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+
+.container-header {
+    background: url(./image/WhatsApp\ Image\ 2023-11-16\ at\ 19.34.24.jpeg) no-repeat;
+    background-size: cover;
+    width: 80%;
+    height: 100vh;
+}
+
+.container-nav {
+    background-color: #212529;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+    align-items: center;
+    padding: 0px;
+}
+
+.container-ul {
+    display: flex;
+}
+
+.container-main {
+    width: 80%;
+}
+
+.container-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-product-pai {
+    display: flex;
+}
+
+.container-product {
+    display: flex;
+    flex-direction: column;
+    width: 370px;
+}
