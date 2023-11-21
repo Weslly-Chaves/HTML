@@ -1,0 +1,11 @@
+* {margin: 0px; padding: 0px; font-size: 24px;}
+
+.div-border {
+border: 2px solid black;
+}
+
+.container-main {
+    display: grid;
+    grid-template-columns: 25vw 50vw 25vw;
+    grid-template-rows: 20vh 60vh 20vh ;
+}
