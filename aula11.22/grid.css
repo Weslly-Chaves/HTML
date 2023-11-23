@@ -1,7 +1,24 @@
+/*Layout 01*/
+
 *  {margin: 0px; padding: 0px;}
 
-header{background-color: darkgreen;}
-nav {background-color: blue;}
-article{background-color: yellow;}
-div {background-color: orangered;}
-footer{background-color: darkred;}
+body {
+    background-color: #d9d9d9;
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 10% 5% 70% 5% 10%;
+    grid-template-areas: 
+    "header header header"
+    "nav article ads"
+    "nav article ads"
+    "nav article ads"
+    "footer footer footer";
+}
+
+header{background-color: #215E21; grid-area: header;}
+nav {background-color: blue; grid-area: nav;}
+article{background-color: yellow; grid-area: article;}
+div{background-color: orangered; grid-area: ads;}
+footer{background-color: darkred; grid-area: footer;}
