@@ -1,6 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap');
+
 * {margin: 0px; padding: 0px; box-sizing: border-box;}
+
+a{
+    text-decoration: none !important;
+}
+
+ul {
+    list-style: none;
+}
 
 .container {
     display: grid;
     grid-template-rows: 100px 100vh 150px repeat(3,450px) 100vh 100px;
+    font-family: 'poppins','sans-serif';
+}
+/* INICIO DO NAV*/
+nav {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    display: grid;
+    grid-template-columns: 100px 100px 1fr 100px 100px;
+    
 }
