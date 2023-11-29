@@ -4,16 +4,19 @@
 
 a{
     text-decoration: none !important;
-}
-
-ul {
-    list-style: none;
+    color: #ffffff;
 }
 
 .container {
     display: grid;
-    grid-template-rows: 100px 100vh 150px repeat(3,450px) 100vh 100px;
+    grid-template-rows: 700px 150px repeat(3,450px) 100vh 100px;
     font-family: 'poppins','sans-serif';
+}
+
+.div-bg {
+    background-image: url(./image/banner-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 /* INICIO DO NAV*/
 nav {
@@ -23,8 +26,10 @@ nav {
     align-items: center;
 }
 
+
 ul {
     display: grid;
     grid-template-columns: 100px 100px 1fr 100px 100px;
-    
+    list-style: none;
+    place-items: ;
 }
