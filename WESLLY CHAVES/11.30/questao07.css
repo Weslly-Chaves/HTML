@@ -1,0 +1,8 @@
+* {margin: 0px; padding: 0px; box-sizing: border-box;}
+
+.div1 {
+    display: flex;
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+}

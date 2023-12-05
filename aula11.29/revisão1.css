@@ -1,3 +1,109 @@
 /* REVISÃO DA PROVA*/
 
 * {margin: 0px; padding: 0px; box-sizing: border-box;}
+
+h1 {margin: 20px 0px;}
+
+.flex-header{
+    background-color: #4A4453;
+    width: 100vw;
+    height: 80px;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 30px;
+    align-items: center;
+}
+
+.flex-div-container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vw;
+    height: 300px;
+    background-color: #AFA8BA;
+    align-items: center;
+    color: #ffffff;
+}
+
+.flex-div-section {
+    width: 30%;
+    height: 90%;
+    background-color: #100141;
+}
+
+.flex-footer{
+    background-color: #4A4453;
+    width: 100vw;
+    height: 200px;
+    color: #ffffff;
+}
+
+/* FIM DO LAYOUT FLEX*/
+/*INICIO DO LAYOUT SEM AREA*/
+
+.grid-container01{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 80px 300px 200px;
+    gap: 15px;
+    justify-content: space-between;
+    color: #ffffff;
+}
+
+#one{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color: #3D0000;
+    display: grid;
+    grid-template-columns: 100px 1fr 100px;
+    align-items: center;
+    padding: 0px 30px;
+}
+
+#two {
+    grid-column-start: 1;
+    background-color: #003B18;
+}
+
+#trhee {
+    grid-column-start: 2;
+    background-color: #2A2564;
+}
+
+#four {
+    grid-column-start: 3;
+    background-color: #00D7FF;
+}
+
+#five {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    background-color: #3D0000;
+}
+
+#menu-h2{grid-column-start: 3;}
+
+/*layout em grid com area*/
+.grid-container02{
+    display: grid;
+    width: 100vh;
+    grid-template-rows: 80px 300px 200px;
+    gap: 15px;
+    grid-template-areas:
+    'um um um'
+    'dois tres quatro'
+    'cinco cinco cinco'
+    ;
+}
+
+.um{grid-area: um; background-color: #100141;}
+.dois{grid-area: dois; background-color: #4A4453;}
+.tres {grid-area: tres; background-color: #3D0000;}
+.quatro{grid-area: quatro; background-color: #003B18;}
+.cinco{grid-area: cinco; background-color: #100141;}
+
+.grid-h2-01{ grid-area: ;}
+
+.grid-h2-02{}
+
+...

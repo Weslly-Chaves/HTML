@@ -1,0 +1,21 @@
+* {margin: 0px; padding: 0px; box-sizing: border-box;}
+
+.container {
+    display: grid;
+    height: 500px;
+    width: 100vh;
+    grid-template-areas: 
+    'div1 div1 div2 div3'
+    'div4 div5 div6 div7'
+    'div8 div8 div9 div9';
+}
+
+.div-1{ background-color: aqua; grid-area: div1;}
+.div-2{ background-color: black; grid-area: div2;}
+.div-3{ background-color: blue; grid-area: div3;}
+.div-4{ background-color: blueviolet; grid-area: div4;}
+.div-5{ background-color: brown; grid-area: div5;}
+.div-6{ background-color: chartreuse; grid-area: div6;}
+.div-7{ background-color: chocolate; grid-area: div7;}
+.div-8{ background-color: crimson; grid-area: div8;}
+.div-9{ background-color: darkblue; grid-area: div9;}
