@@ -1,4 +1,4 @@
-.largura {
+/* .largura {
     max-width: 500px;
     height: 300px;
     border: 2px dotted black;
@@ -22,4 +22,26 @@
     font-size: 40px;
     color: green;
     margin: 2px;
+} */
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+.container-fluid {
+    width: 100%;
+}
+
+footer {
+    background-color: #1c1c1c;
+}
+
+a{
+    text-decoration: none;
+}
+
+.largura {
+    max-width: 600px;
+    margin: 0px auto;
 }
