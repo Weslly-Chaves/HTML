@@ -1,8 +1,67 @@
-* {margin: 0px; padding: 0px; box-sizing: border-box;}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
 
-.div1 {
+body{
+    width: 100vw;
+    height: 100vh;
     display: flex;
-    background-color: blue;
+    flex-direction: column;
+
+}
+
+.section__topo{
+    background-color: orange;
+    width: 100%;
+    height: 3%;
+}
+
+.section2{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.section3{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.div1{
+    width: 51%;
+    height: 100%;
+    background-image: url(./imagens/questao07.01.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.div2{
+    width: 38%;
+    height: 100%;
+    background-image: url(./imagens/questao07.02.jpg);
+    background-repeat: no-repeat;
+}
+
+.div__container1{
+    padding-left: 20px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+}
+
+.pp{
+    padding-top: 8px;
     width: 100px;
-    height: 100px;
+    height: 40px;
+    border: 2px solid black;
+    background-color: orange;
 }

@@ -2,8 +2,8 @@
 
 .container {
     display: grid;
-    height: 70px;
-    width: 90%;
+    height: 50vh;
+    width: 80%;
     grid-template-rows: ;
     grid-template-columns: ;
     grid-template-areas: 

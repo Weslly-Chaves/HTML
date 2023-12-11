@@ -1,37 +1,209 @@
 * {margin: 0px; padding: 0px; box-sizing: border-box;}
 
-.container-header{
+body{
+    width: 80vw;
+    height: 80vh;
     display: flex;
-    justify-content: start;
+    flex-direction: column;
+    color: whitesmoke;
+} 
+
+
+header{
+    width: 100%;
+    height: 25%;
+    display: flex;
     flex-direction: row;
-    width: 50%;
-    height: 100px;
-    background-color: blue;
+}
+section{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: row;
+}
+main{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: row;
+}
+footer{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: row;
 }
 
-.container-div {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    width: 100vw;
-    height: 300px;
-    background-color: yellow;
+
+
+.div-1{ 
+    background-image: url(./imagens/questao01.01.jpg);
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 158px;
+    background-position: center;
+    text-align: center;
+    padding-top: 60px;
+    background-size: cover;
 }
 
-.container-main {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    width: 50%;
-    height: 100px;
-    background-color: brown;
+.div-2{
+    background-image: url(./imagens/questao01.02.jpg); 
+    background-repeat: no-repeat; 
+    width: 400px; 
+    height: 158px; 
+    background-position: center;
+    text-align: center; 
+    padding-top: 60px;
+    background-size: cover;
 }
 
-.container-footer {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    width: 50%;
-    height: 100px;
-    background-color: darkgreen;
+.div-3{ background-image: url(./imagens/questao01.03.jpg); 
+    background-repeat: no-repeat;
+    width: 400px; 
+    height: 158px; 
+    background-position: center;
+    text-align: center; 
+    padding-top: 60px;
+    background-size: cover;
 }
+
+.div-4{ 
+    background-image: url(./imagens/questao01.04.jpg); 
+    background-repeat: no-repeat;
+    width: 400px; 
+    height: 158px; 
+    background-position: center;
+    text-align: center; 
+    padding-top: 60px;
+    background-size: cover;
+}
+
+.div-5{ 
+    background-image: url(./imagens/questao01.05.jpg); 
+    background-repeat: no-repeat;
+    width: 400px; 
+    height: 158px; 
+    background-position: center;
+    text-align: center; 
+    padding-top: 60px;
+    background-size: cover;
+}
+
+.div-6{ 
+    background-image: url(./imagens/questao01.06.jpg); 
+    background-repeat: no-repeat;
+    width: 400px; 
+    height: 158px; 
+    background-position: center;
+    text-align: center; 
+    padding-top: 60px;
+    background-size: cover;
+}
+
+.div-7{ 
+    background-image: url(./imagens/questao01.07.jpg);
+     background-repeat: no-repeat;
+     width: 400px; 
+     height: 158px; 
+     background-position: center;
+     text-align: center; 
+     padding-top: 60px;
+     background-size: cover;
+    }
+
+.div-8{ 
+    background-image: url(./imagens/questao01.08.jpg); 
+    background-repeat: no-repeat;
+    width: 400px; 
+    height: 158px; 
+    background-position: center;
+    text-align: center;
+     padding-top: 60px;
+     background-size: cover;
+    }
+
+.div-9{ 
+    background-image: url(./imagens/questao01.09.jpg); 
+    background-repeat: no-repeat;
+    width: 400px; 
+    height: 158px; 
+    background-position: center;
+    text-align: center; 
+    padding-top: 60px;
+    background-size: cover;
+}
+
+.div-10{ 
+    background-image: url(./imagens/questao01.10.jpg); 
+    background-repeat: no-repeat;
+    width: 400px; 
+    height: 158px; 
+    background-position: center;
+    text-align: center; 
+    padding-top: 60px;
+    background-size: cover;
+}
+
+.div-11{
+     background-image: url(./imagens/questao01.11.jpg); 
+     background-repeat: no-repeat;
+     width: 400px; 
+     height: 158px; 
+     background-position: center;
+     text-align: center; 
+     padding-top: 60px;
+     background-size: cover;}
+
+.div-12{ background-image: url(./imagens/questao01.12.jpg); 
+    background-repeat: no-repeat;
+    width: 400px; 
+    height: 158px; 
+    background-position: center;
+    text-align: center; 
+    padding-top: 60px;
+    background-size: cover
+}
+
+.div-13{ 
+    background-image: url(./imagens/questao01.13.jpg); 
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 158px; 
+    background-position: center;
+    text-align: center; 
+    padding-top: 60px;
+    background-size: cover;
+}
+
+.div-14{ 
+    background-image: url(./imagens/questao01.14.jpg); 
+    background-repeat: no-repeat;
+    width: 400px; 
+    height: 158px;
+    background-position: center;
+    text-align: center; 
+    padding-top: 60px;
+    background-size: cover;
+}
+
+.div-15{ background-image: url(./imagens/questao01.15.jpg); 
+    background-repeat: no-repeat;
+    width: 400px; 
+    height: 158px; 
+    background-position: center;
+    text-align: center; 
+    padding-top: 60px;
+    background-size: cover;
+}
+
+.div-16{ background-image: url(./imagens/questao01.16.jpg);
+     background-repeat: no-repeat;
+     width: 400px; 
+     height: 158px; 
+     background-position: center;
+     text-align: center; 
+     padding-top: 60px;
+     background-size: cover;
+    }
+
